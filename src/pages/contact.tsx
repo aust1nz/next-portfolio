@@ -5,7 +5,7 @@ import * as Yup from "yup";
 
 import Layout, { siteTitle } from "../components/layout";
 
-const MyTextInput = ({ label, ...props }) => {
+const MyTextInput: React.FC<any> = ({ label, ...props }) => {
   const [field, meta] = useField(props);
 
   return (
@@ -33,7 +33,7 @@ const MyTextInput = ({ label, ...props }) => {
   );
 };
 
-const MyTextAreaInput = ({ label, ...props }) => {
+const MyTextAreaInput: React.FC<any> = ({ label, ...props }) => {
   const [field, meta] = useField(props);
 
   return (
