@@ -72,7 +72,7 @@ export default function Projects() {
         className="py-8 px-2"
         style={{
           backgroundColor: "#3075b9",
-          backgroundImage: `url("/triangles.svg"`,
+          backgroundImage: `url("/patterns/triangles.svg"`,
         }}
       >
         <div className="container bg-white mx-auto w-full max-w-2xl p-4 rounded shadow-sm">
@@ -147,6 +147,7 @@ export default function Projects() {
                     <button
                       className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                       type="submit"
+                      disabled={formik.isSubmitting}
                     >
                       Send
                     </button>

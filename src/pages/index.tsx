@@ -42,7 +42,7 @@ export default function Home() {
       <div
         style={{
           backgroundColor: "#edf2f7",
-          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233075b9' fill-opacity='0.35' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E")`,
+          backgroundImage: `url("/patterns/dots.svg")`,
         }}
       >
         <div className="container flex py-8 mx-auto">
@@ -50,11 +50,15 @@ export default function Home() {
             <h2 className="text-2xl mb-2 border-b">Who I am</h2>
             <div className="prose">
               <p>
-                For a few years after college, I taught middle school social
-                studies in schools in and near Washington, DC. It was hard! I
-                still work in education, but now I contribute behind the scenes,
-                building tools that help school systems make staff and budget
-                decisions.
+                I work for educational organizations in DC, and focus on
+                building tools that help them do core work more efficiently.
+                I've mostly focused on staff-focused tools, especially around HR
+                and finance/budgets.
+              </p>
+              <p>
+                Before I came into this role, I taught middle school social
+                studies for 4 years in and near DC. That was hard, rewarding
+                work.
               </p>
               <p>
                 When I'm not working, I'm usually hanging out with my wife and
