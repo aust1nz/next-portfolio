@@ -1,5 +1,19 @@
 // tailwind.config.js
 module.exports = {
+  theme: {
+    typography: {
+      default: {
+        css: {
+          "code::before": {
+            content: '""',
+          },
+          "code::after": {
+            content: '""',
+          },
+        },
+      },
+    },
+  },
   future: {
     removeDeprecatedGapUtilities: true,
   },
