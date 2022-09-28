@@ -14,7 +14,7 @@ export default async (req, res) => {
   const info = await transporter.sendMail({
     from: `${req.body.name} <notifier@mail.austinzentz.com>`,
     replyTo: `${req.body.name} <${req.body.email}>`,
-    to: "austin.zentz@hey.com",
+    to: "austin@austinzentz.com",
     subject: "Message from austinzentz.com",
     text: req.body.message,
     html: `<p>${req.body.message}</p>`,

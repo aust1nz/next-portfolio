@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="sm:w-1/2 pl-2">
             <div className="font-semibold text-gray-700">Contact</div>
             <div>
-              <a href="mailto:austin.zentz@hey.com">austin.zentz@hey.com</a>
+              <a href="mailto:austin@austinzentz.com">austin@austinzentz.com</a>
             </div>
           </div>
         </div>
