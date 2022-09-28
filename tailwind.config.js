@@ -1,27 +1,11 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  theme: {
-    typography: {
-      default: {
-        css: {
-          "code::before": {
-            content: '""',
-          },
-          "code::after": {
-            content: '""',
-          },
-        },
-      },
-    },
-  },
-  future: {
-    removeDeprecatedGapUtilities: true,
-  },
-  purge: [
-    // Use *.tsx if using TypeScript
+  content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
+  theme: {
+    extend: {},
+  },
   plugins: [require("@tailwindcss/typography")],
-  // ...
 };
