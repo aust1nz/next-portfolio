@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Navigation from "./navigation";
 import Footer from "./footer";
+import Navigation from "./navigation";
 
 export const siteTitle = "Austin Zentz";
 

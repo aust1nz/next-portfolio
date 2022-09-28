@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-sm mt-2 pl-2">
-          © {new Date().getFullYear} Austin Zentz. All rights reserved.
+          © {new Date().getFullYear()} Austin Zentz. All rights reserved.
         </div>
       </div>
     </div>
