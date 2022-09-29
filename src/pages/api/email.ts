@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.sendgrid.net",
+  host: "email-smtp.us-east-1.amazonaws.com",
   port: 465,
   secure: true,
   auth: {
